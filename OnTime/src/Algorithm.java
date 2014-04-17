@@ -32,7 +32,6 @@ public class Algorithm {
 			// setup the connection with the DB.
 			connection = DriverManager
 					.getConnection("jdbc:mysql://localhost:3306/ontime", "mshiffer", "mls1998");
-			//+ "user=mshiffer&password=mls1998");
 
 		}
 		catch (Exception e)
@@ -231,11 +230,10 @@ public class Algorithm {
 
 
 
-	//TODO Measure persons speed and then cache
+	//TODO Measure persons total time to get there and then cache
 	//TODO Ping for persons location every 30 seconds and update ETA
 	//TODO When ETA < TTCook + 30 + TTTransmit send order
 	//TODO Use persons pinged time to estimate speed over entire track.
-	//TODO We also need distance
 
 	//TODO Ulimately need to confound with many people coming
 	//TODO Also have to deal with the case when a person is closer than TTC
