@@ -13,7 +13,7 @@ import org.json.JSONObject;
 
 public class Algorithm {
 
-	int duration = 0;//seconds
+	int duration = 0;//seconds.
 	int distance = 0;//meters
 
 	Connection connection;
