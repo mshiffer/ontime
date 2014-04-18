@@ -221,6 +221,7 @@ public class Algorithm {
 		
 		//new Algorithm().googleEstimate(42.388584, -71.088563, 42.364014, -71.079572);//469
 		Algorithm a = new Algorithm();
+		//From my house to work.
 		a.googleEstimate(42.388600, -71.088600, 42.364014, -71.079572);//469
 		//new Algorithm().googleEstimate(42.388000, -71.088000, 42.364014, -71.079572);//448
 
